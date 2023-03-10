@@ -14,11 +14,11 @@ export default function Footer() {
       <div className="w-full h-full bg-[#DAEDF8] mt-[283px] mb-[342px] max-lg:mb-[67px] max-lg:mt-[202px]">
         <div className=' pt-[53px] pb-[78px] max-lg:px-[30px] max-xl:px-[50px] max-2xl:px-[100px] container px-[154px] mx-auto max-w-[1728px]'>
           <h2 className='max-lg:text-[40px] max-lg:max-w-[221px] max-w-[350px] mx-auto'>GET IN TOUCH</h2>
-          <div className='max-lg:mt-[70px] max-lg:mb-[50px] max-lg:flex-col flex flex-row justify-center items-center mb-[62px] mt-[78px]'>
+          <div className='max-lg:mt-[70px] max-lg:mb-[50px] max-lg:flex-col flex flex-row justify-center items-center mb-[62px] mt-[78px] hover:cursor-pointer hover:opacity-70'>
             <div className='max-lg:w-[35px] max-lg:h-[34px] max-lg:m-0 bg-[#06269A] rounded-[50%] w-[102px] h-[99px] flex justify-center items-center mr-[37px] '><Image src={icon1} alt='' className='max-lg:h-[14px] max-lg:w-[17px]'/></div>
             <p className=' max-lg:text-[18px] max-xl:text-[40px] max-2xl:mr-0 mr-[136px] font-[600px] leading-[61px] text-[#0D2373] text-[50px]' >Beyondhomedisability@gmail.com</p>
           </div>
-          <div className='max-lg:flex-col flex flex-row items-center justify-center'>
+          <div className='max-lg:flex-col flex flex-row items-center justify-center hover:cursor-pointer hover:opacity-70'>
             <div className='max-lg:w-[35px] max-lg:h-[34px] max-lg:m-0 bg-[#06269A] rounded-[50%] w-[102px] h-[99px] flex justify-center items-center mr-[37px]'><Image src={icon2} alt='' className='max-lg:h-[14px] max-lg:w-[17px]'/></div>
             <p className='max-lg:text-[25px] max-xl:text-[40px] max-2xl:mr-0 mr-[136px] font-[600px] leading-[61px] text-[#0D2373] text-[50px]'>0436  275  501</p>
           </div>

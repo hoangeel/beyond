@@ -23,11 +23,11 @@ export default function Header() {
   return (
     <>
       <div className="bg-[#FFFFFF] absolute top-[0px] w-[100%] z-10">
-        <div className="max-lg:px-[30px] max-xl:px-[50px] max-xl:space-x-[50px] max-2xl:px-[100px] max-2xl:space-x-[100px] space-x-[144px] flex flex-row container px-[154px] mx-auto max-w-[1728px] py-[15px] items-center text-[25px] font-[500] leading-[30px]" >
-          <Image onClick={() => router.push("./")} className="max-lg:h-[37px] max-lg:w-auto mr-auto" src={logo} alt=""/>
-          <a href="/" className='max-lg:hidden'>Home</a>
-          <a href="/aged-care" className='max-lg:hidden'>Aged Care</a>
-          <a href="/ndis" className='max-lg:hidden'>NDIS</a>
+        <div className="max-lg:px-[30px] max-xl:px-[50px] max-xl:space-x-[50px] max-2xl:px-[100px] max-2xl:space-x-[100px] space-x-[144px] flex flex-row container px-[154px] mx-auto max-w-[1728px] py-[15px] items-center max-xl:text-[20px] text-[25px] font-[500] leading-[30px]" >
+          <Image onClick={() => router.push("./")} className="max-lg:h-[37px] max-lg:w-auto mr-auto hover:cursor-pointer hover:opacity-70" src={logo} alt=""/>
+          <a href="/" className='max-lg:hidden hover:cursor-pointer hover:opacity-70'>Home</a>
+          <a href="/aged-care" className='max-lg:hidden hover:cursor-pointer hover:opacity-70'>Aged Care</a>
+          <a href="/ndis" className='max-lg:hidden hover:cursor-pointer hover:opacity-70'>NDIS</a>
           <div className='max-lg:hidden relative max-lg:w-[162px] max-lg:h-70px max-lg:mx-auto'>
             <Image src={button} alt='' className='absolute top-[20px] left-0 w-[169px] h-auto z-10' />
             <button className='relative z-50  mr-[28px] bg-[#02198E] w-[169px] h-[62px] text-[#F5F7FF] rounded-[19px] hover:opacity-70'>Contact</button>
@@ -59,7 +59,7 @@ export default function Header() {
                     href={item.href}
                     className={classNames(
                       item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                      'block px-3 py-2 rounded-md text-base font-medium'
+                      'block px-3 py-2 rounded-md text-base font-medium hover:cursor-pointer hover:opacity-70 '
                     )}
                     aria-current={item.current ? 'page' : undefined}
                   >
